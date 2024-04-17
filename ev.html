@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Vehicles</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+      background-color: lightgreen;
+    }
+  </style>
+<body>
+  <header>
+    <h1>Best Electric Vehicles</h1>
+  </header>
+  <nav>
+    <ul>
+    <li><a href="index.html" >Home</a></li>
+      <li><a href="ev.html"class="active">Electric Vehicles</a></li>
+      <li><a href="hybrid.html">Hybrid Cars</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2 class="sectionTitle" id="test1">Electric Vehicle <i class="fa fa-minus-square-o"></i></h2>
+    <section class="car-listings" id="test2">
+      <div class="car">
+        <img src="Model3.jpeg" alt="Car 1">
+        <h2>Tesla Model 3</h2>
+        <p>Regular Start MSRP $35,990</p>
+        <p>Long Dual Motor All-Wheel Drive start $44,740</p>
+        <button id="btModel3" type="button" onclick="toggleContent('Model3')">Show Details</button>
+        <div id="Model3" class="details" style="display: none;">
+          <p>15 min Recharge Up to 175 miles</p>
+          <p>Regular Range 272 miles, Long Dual Range 341 miles</p>
+          <p>Dual Motor: AWD</p>
+          <a href="https://www.tesla.com/model3">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="ModelY.avif" alt="Car 2">
+        <h2>Tesla Model Y</h2>
+        <p>Start MSRP $37,490</p>
+        <button id="btModelY" type="button" onclick="toggleContent('ModelY')">Show Details</button>
+        <div id="ModelY" class="details" style="display: none;">
+          <p>Cargo Space: 76 cu ft</p>
+          <p>Range(Est): 310 miles</p>
+          <p>Dual Motor: AWD</p>
+          <a href="https://www.tesla.com/modely">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="Ioniq6.webp" alt="Car 2">
+        <h2>Hyundai Ioniq 6</h2>
+        <p>Price: $42,450</p>
+        <button id="btIoniq6" type="button" onclick="toggleContent('Ioniq6')">Show Details</button>
+        <div id="Ioniq6" class="details" style="display: none;">
+          <p>Est. Rnage: 361 miles</p>
+          <p>Power up to 320 hp</p>
+          <p>Cargo Volume: 6 cu-ft</p>
+          <a href="https://www.hyundaiusa.com/us/en/vehicles/ioniq-6">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="ID4.avif" alt="Car 2">
+        <h2>Volkswagen ID4</h2>
+        <p>Price: $36,390</p>
+        <button id="btID4" type="button" onclick="toggleContent('ID4')">Show Details</button>
+        <div id="ID4" class="details" style="display: none;">
+          <p>Range: 209-291 miles</p>
+          <p>Cargo space: 64.2 cu-ft</p>
+          <a href="https://www.vw.com/en/models/id-4.html">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="Mirai.jpeg" alt="Car 2">
+        <h2>Toyota Mirai</h2>
+        <p>Price: $50,190</p>
+        <button id="btMirai" type="button" onclick="toggleContent('Mirai')">Show Details</button>
+        <div id="Mirai" class="details" style="display: none;">
+          <p>Range: 402 miles</p>
+          <p>Approx. 5-minute refuel time</p>
+          <a href="https://www.toyota.com/mirai/">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

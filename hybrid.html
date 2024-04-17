@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hybrid Cars</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+      background-color: lightgreen;
+    }
+  </style>
+<body>
+  <header>
+    <h1>Best Hybrid Cars</h1>
+  </header>
+  <nav>
+    <ul>
+    <li><a href="index.html" >Home</a></li>
+      <li><a href="ev.html">Electric Vehicles</a></li>
+      <li><a href="hybrid.html"class="active">Hybrid Cars</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2 class="sectionTitle" id="test3">Hybrid Vehicle <i class="fa fa-minus-square-o"></i></h2>
+    <section class="car-listings" id="test4">
+      <div class="car">
+        <img src="Pruis.jpeg" alt="Car 2">
+        <h2>Toyota Prius</h2>
+        <p>Start MSRP $32,975</p>
+        <button id="btPruis" type="button" onclick="toggleContent('Pruis')">Show Details</button>
+        <div id="Pruis" class="details" style="display: none;">
+          <p>MPG: 52 combined mpg</p>
+          <p>POWER: 220 hp</p>
+          <a href="https://www.toyota.com/priusprime/">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="Elantra.avif" alt="Car 2">
+        <h2>Hyundai Elantra</h2>
+        <p>Start MSRP $21,625</p>
+        <button id="btElantra" type="button" onclick="toggleContent('Elantra')">Show Details</button>
+        <div id="Elantra" class="details" style="display: none;">
+          <p>MPG: up 41 City</p>
+          <p>Up to 201 hp</p>
+          <a href="https://www.hyundaiusa.com/us/en/vehicles/elantra">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="Accord.avif" alt="Car 2">
+        <h2>Honda Accord</h2>
+        <p>Start MSRP $27,895</p>
+        <button id="btAccord" type="button" onclick="toggleContent('Accord')">Show Details</button>
+        <div id="Accord" class="details" style="display: none;">
+          <p>MPG: 29City/ 37Hwy</p>
+          <p>Up to 204 hp</p>
+          <a href="https://automobiles.honda.com/accord-sedan">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="Camry.avif" alt="Car 2">
+        <h2>Toyota Camry</h2>
+        <p>Start MSRP $28,855</p>
+        <button id="btCamry" type="button" onclick="toggleContent('Camry')">Show Details</button>
+        <div id="Camry" class="details" style="display: none;">
+          <p>MPG: Up to a Manufacturer-Estimated 52 MPG Combined</p>
+          <p>Power 301 hp</p>
+          <a href="https://www.toyota.com/camry/">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+      <div class="car">
+        <img src="SONATA.avif" alt="Car 2">
+        <h2>Hyundai SONATA</h2>
+        <p>Price: $27,500</p>
+        <button id="btSONATA" type="button" onclick="toggleContent('SONATA')">Show Details</button>
+        <div id="SONATA" class="details" style="display: none;">
+          <p>MPG: Up to 36 Hwy</p>
+          <p>Up to 290 hp</p>
+          <a href="https://www.hyundaiusa.com/us/en/vehicles/sonata">
+            <p>more details</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

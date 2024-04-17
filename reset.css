@@ -1,0 +1,379 @@
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-content {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  row-gap: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: green;
+  background-color: white;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #66bfff;
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: darkgreen
+}
+
+.intro-text {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.best-evs {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ev-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.ev-item {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.ev-item:hover {
+  border-color: #00cc00;
+  border-width: 2px;
+}
+
+.ev-item img {
+  width: 300px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+
+.ev-item .description {
+  flex: 1;
+  padding: 15px;
+}
+
+.best-evs h2 {
+  font-family: 'Jersey 20', sans-serif; 
+  font-size: 36px;
+  font-weight: bold;
+  color: green;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.ev-item h3 {
+  font-family: 'Jersey 20', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.ev-item p {
+  font-family: 'Jersey 20', sans-serif;
+  font-size: 22px;
+  color: #666;
+}
+.best-hybrids {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hybrid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.hybrid-item {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.hybrid-item:hover {
+  border-color: orange;
+  border-width: 2px;
+}
+
+.hybrid-item img {
+  width: 300px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.hybrid-item .description {
+  flex: 1;
+  padding: 15px;
+}
+
+.best-hybrids h2 {
+  font-family: 'Jersey 20', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color:orange;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hybrid-item h3 {
+  font-family: 'Jersey 20', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.hybrid-item p {
+  font-family: 'Jersey 20', sans-serif;
+  font-size: 22px;
+  color: #666;
+}
+
+.meet-more-electric-cars {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.electric-cars-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+.meet-more-electric-cars h2 {
+  font-family: 'Jersey 20s', sans-serif; 
+  font-size: 28px; 
+  font-weight: bold; 
+  color: green; 
+  text-transform: uppercase; 
+  margin-bottom: 20px; 
+}
+
+.electric-car-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s; 
+}
+
+.electric-car-item:hover {
+  background-color: lightgreen; 
+}
+
+.electric-car-item img {
+  width: 100%; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.electric-car-item h3 {
+  font-family: 'Jersey 20', sans-serif; 
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #333; 
+  text-align: center; 
+  margin-top: 10px; 
+  margin-bottom: 0; 
+}
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+.see-more-button {
+  background-color: darkgreen; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 30px; 
+  font-size: 24px; 
+  font-weight: bold; 
+  font-family: 'Jersey 20', sans-serif; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-button:hover {
+  background-color: #009900; 
+}
+
+
+.meet-more-hybrid-cars {
+  max-width: 1200px; 
+  margin: auto; 
+  margin-top: 20px; 
+}
+
+.hybrid-cars-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.hybrid-car-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s; 
+}
+
+.hybrid-car-item:hover {
+  background-color: orange; 
+}
+
+.hybrid-car-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.meet-more-hybrid-cars h2 {
+  font-family: 'Jersey 20s', sans-serif; 
+  font-size: 28px; 
+  font-weight: bold; 
+  color: orange; 
+  text-transform: uppercase; 
+  margin-bottom: 20px; 
+}
+.hybrid-car-item h3 {
+  font-weight: bold;
+  font-family: 'Jersey 20s', sans-serif; 
+  margin-top: 10px; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.meet-more-hybrid-cars .see-more-button {
+  background-color: darkgoldenrod; 
+  color: #fff; 
+  border: none;
+  border-radius: 4px;
+  padding: 15px 30px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  font-family: 'Your Chosen Font', sans-serif; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.meet-more-hybrid-cars .see-more-button:hover {
+  background-color: orange;
+}
+.extra-space {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  body, html {
+      font-size: 16px; 
+  }
+
+  .header, .nav ul, .intro, .best-evs, .best-hybrids, .meet-more-electric-cars, .meet-more-hybrid-cars {
+      padding: 10px; 
+  }
+
+  nav ul {
+      flex-direction: column; 
+      gap: 10px;
+  }
+
+  .ev-container, .hybrid-container, .electric-cars-container, .hybrid-cars-container {
+      grid-template-columns: 1fr; 
+  }
+
+  .ev-item img, .hybrid-item img, .electric-car-item img, .hybrid-car-item img {
+      width: 100%; 
+  }
+
+  .best-evs h2, .best-hybrids h2, .meet-more-electric-cars h2, .meet-more-hybrid-cars h2 {
+      font-size: 24px; 
+  }
+
+  .ev-item h3, .hybrid-item h3, .electric-car-item h3, .hybrid-car-item h3 {
+      font-size: 20px; 
+  }
+
+  .button-container .see-more-button {
+      padding: 12px 24px; 
+      font-size: 18px;
+  }
+}
+
+
