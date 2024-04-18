@@ -15,6 +15,18 @@ header {
   justify-items: center;
   row-gap: 20px;
 }
+h1 {
+  font-size: 80px; 
+  font-family: 'Jersey 20', sans-serif; 
+  color: darkgreen; 
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+nav {
+  background-size: cover;  
+  background-position: center; 
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -45,10 +57,6 @@ nav ul li a.active {
   text-decoration: underline;
 }
 
-.logo {
-  width: 250px;
-  height: auto;
-}
 
 
 body, html {
