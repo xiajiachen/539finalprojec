@@ -145,9 +145,9 @@ body, html {
 }
 
 .ev-item p {
-  font-family: 'Jersey 20', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  color: #666;
+  color: black;
 }
 .best-hybrids {
   max-width: 1200px;
@@ -189,7 +189,7 @@ body, html {
   font-family: 'Jersey 20', sans-serif;
   font-size: 36px;
   font-weight: bold;
-  color:orange;
+  color:da;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -203,9 +203,9 @@ body, html {
 }
 
 .hybrid-item p {
-  font-family: 'Jersey 20', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  color: #666;
+  color: black;
 }
 
 .meet-more-electric-cars {
@@ -277,7 +277,12 @@ body, html {
   background-color: #009900; 
 }
 
-
+#electric-cars-heading {
+  color: green;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 24px; 
+  font-weight: bold; 
+}
 .meet-more-hybrid-cars {
   max-width: 1200px; 
   margin: auto; 
@@ -312,7 +317,7 @@ body, html {
   font-family: 'Jersey 20s', sans-serif; 
   font-size: 28px; 
   font-weight: bold; 
-  color: orange; 
+  color: darkblue; 
   text-transform: uppercase; 
   margin-bottom: 20px; 
 }
@@ -329,7 +334,7 @@ body, html {
 }
 
 .meet-more-hybrid-cars .see-more-button {
-  background-color: darkgoldenrod; 
+  background-color: darkblue; 
   color: #fff; 
   border: none;
   border-radius: 4px;
@@ -342,7 +347,7 @@ body, html {
 }
 
 .meet-more-hybrid-cars .see-more-button:hover {
-  background-color: orange;
+  background-color: darkblue;
 }
 .extra-space {
   height: 200px;
